@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Programming Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h2>Програма порівняння двох чисел:</h2>
+    </div>
+  
+    <div class="flex">
+    <input type="number" id="number1" placeholder="Введіть перше число">
+  <input type="number" id="number2" placeholder="Введіть друге число">
+  <button onclick="compareNumbers()">Порівняти</button>
+  </div>
+  <p id="result"></p>
+
+ <div class="flex">
+  <h2>Програма перевірки пароля:</h2>
+  <input type="password" id="password" placeholder="Введіть пароль">
+  <button onclick="checkPassword()">Перевірити пароль</button>
+</div>
+<p id="passwordResult"></p>
+
+<div class="flex">
+  <h2>Програма перевірки числа на парність:</h2>
+  <input type="number" id="number" placeholder="Введіть число">
+  <button onclick="checkEvenOdd()">Перевірити</button>
+</div>
+<p id="evenOddResult"></p>
+
+<div class="flex">
+  <h2>Програма перевірки року на високосність:</h2>
+  <input type="number" id="year" placeholder="Введіть рік">
+  <button onclick="checkLeapYear()">Перевірити</button>
+</div>
+<p id="leapYearResult"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
